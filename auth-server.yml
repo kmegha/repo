@@ -12,6 +12,6 @@ eureka:
 spring:
   data:
     mongodb:
-      host: 10.145.81.39
+      host: 10.145.81.24
       port: 27017
       database: auth-db
