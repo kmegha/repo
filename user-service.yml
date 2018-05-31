@@ -12,6 +12,12 @@ spring:
       host: 10.145.81.17
       port: 27017
       database: auth-db
+
+ribbon:
+  MaxAutoRetries:0
+  MaxAutoRetriesNextServer:1
+  OkToRetryOnAllOperations:false
+
 feign:
   hystrix:
     enabled: false
