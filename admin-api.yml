@@ -6,6 +6,11 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8002/eureka/
 
+ribbon:
+  MaxAutoRetries:0
+  MaxAutoRetriesNextServer:1
+  OkToRetryOnAllOperations:false
+
 feign:
   hystrix:
     enabled: false
